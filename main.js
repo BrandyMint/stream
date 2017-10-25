@@ -11,6 +11,9 @@
 var errorElement = document.querySelector('#errorMsg');
 var video = document.querySelector('video');
 
+// Поворачиваем зеркально
+video.style.cssText = "-moz-transform: scale(-1, 1); -webkit-transform: scale(-1, 1); -o-transform: scale(-1, 1);  transform: scale(-1, 1); filter: FlipH;";
+
 // Put variables in global scope to make them available to the browser console.
 var constraints = window.constraints = {
   audio: false,
