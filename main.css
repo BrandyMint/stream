@@ -124,6 +124,7 @@ font-weight: 400;
   top: 50%;
   width: 40%;
   position: absolute;
+  z-index: 2;
 }
 
 #image2 {
@@ -131,6 +132,7 @@ font-weight: 400;
   top: 50%;
   width: 2%;
   position: absolute;
+  z-index: 2;
 }
 
 .link {
